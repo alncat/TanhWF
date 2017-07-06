@@ -1,2 +1,3 @@
 # TanhWF
-solving random systems of quadratic equations with tanh wirtinger flow
+This repository contains the paper solving random systems of quadratic equations with tanh wirtinger flow and its implementation. The wirtinger flow algorithm proposed in this paper is implemented in two files, compute_grad.m and TWF.m.
+To test this algorithm with tanh initialization method on 1D gaussian systems, set the variable 'Param.init' in Example_1D_Gaussian.m to 'tanh' and the variable 'Param.grad_type' to 'LIN'. The configuration of the systems to be solved can be changed by setting the variables 'n1' and 'm', which represent the number of unknowns and measurements, respectively. Finally run test_1d.m.
